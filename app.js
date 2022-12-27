@@ -16,8 +16,8 @@ app.get("/", (req, res) => {
 // make a post request from the client 
 app.post("/", (req, res) => {
     try {
-        const firstNumb = parseInt(req.body.firstNum); // parsing the value as float data type
-        const secondNumb = parseInt(req.body.secondNum); // parsing the value as float data type
+        const firstNumb = parseInt(req.body.firstNum); // parsing the value as integer data type
+        const secondNumb = parseInt(req.body.secondNum); // parsing the value as integer data type
 
         const sumNum = firstNumb + secondNumb;
         res.send(`your result is ${sumNum}`); // sending back to the client
