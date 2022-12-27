@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form{
+    border: 1px solid grey;
+    width: 20%;
+    margin: 30px auto;
+    background: darkslategrey;
+}
+
+.field input{
+    outline: none;
+    display: flex;
+    margin-bottom: 5px;
+    width: auto;
+}
